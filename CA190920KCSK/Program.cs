@@ -17,6 +17,7 @@ namespace CA190920KCSK
             kecskek.Add(new Kecske("János", true, new DateTime(1995, 07, 30)));
             kecskek.Add(new Kecske("Gréta", false, new DateTime(1996, 01, 10)));
             kecskek.Add(new Kecske("Ferenc", false, new DateTime(1900, 01, 16)));
+            kecskek.Add(new Kecske("UriGeller",true, new DateTime(1960, 11, 16)));
 
             Console.WriteLine("Összes kecske neve: ");
             foreach (var k in kecskek)
